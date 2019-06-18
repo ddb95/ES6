@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2019 by ddb95 (http://jsbin.com/bunelah/23/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+<script id="jsbin-javascript">
+// let name = `Ryan
+// This is a new Line`
+// console.log(name);
+
+// let fName = 'Ryan'
+// let lName= 'Tribbiani'
+// console.log(`My Name is ${fName} ${lName}`)
+
+// Object
+
+let person = {
+  fname: 'Ryan',
+  lname: 'Tribbiani',
+  sayMyName(){
+  return `My name is ${this.fname} ${this.lname}`;
+  }
+}
+let getName = person.sayMyName();
+person.fname = 'Joey'
+console.log(getName);
+
+
+</script>
+</body>
+</html>
